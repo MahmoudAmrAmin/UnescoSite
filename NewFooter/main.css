@@ -1,0 +1,81 @@
+/* Footer Styling */
+footer {
+    background-color:#018290; /* Same background color */
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.footer-container h2 {
+    font-size: 1.3rem; /* Smaller title font */
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.contact-icons, .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.contact-icons .line {
+    height: 40px; /* Shorter lines */
+    width: 1px;
+    background: #ffffff;
+    margin: 0 20px;
+    opacity: 0.8;
+}
+
+.icon-link {
+    color: #ffffff;
+    font-size: 1.8rem; /* Smaller icons */
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    background-color: #018290;
+    border: 2px solid transparent;
+}
+
+.icon-link:hover {
+    color: #018290;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.social-icons a {
+    font-size: 1.6rem; /* Smaller social media icons */
+    margin: 0 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #018290;
+}
+
+footer p {
+    font-size: 0.8rem; /* Smaller text */
+    opacity: 0.8;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .contact-icons, .social-icons {
+        flex-direction: column;
+        gap: 10px; /* Reduce gaps on mobile */
+    }
+
+    .contact-icons .line {
+        display: none;
+    }
+
+    footer p {
+        margin-top: 15px;
+    }
+}
