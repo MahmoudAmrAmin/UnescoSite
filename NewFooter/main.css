@@ -1,6 +1,5 @@
-/* Footer Styling */
 footer {
-    background-color:#018290; /* Same background color */
+    background-color:#018290; 
     padding: 40px 0;
     text-align: center;
     font-family: 'Arial', sans-serif;
@@ -8,7 +7,7 @@ footer {
 }
 
 .footer-container h2 {
-    font-size: 1.3rem; /* Smaller title font */
+    font-size: 1.3rem;
     margin-bottom: 20px;
     font-weight: 600;
     letter-spacing: 0.8px;
@@ -23,7 +22,7 @@ footer {
 }
 
 .contact-icons .line {
-    height: 40px; /* Shorter lines */
+    height: 40px; 
     width: 1px;
     background: #ffffff;
     margin: 0 20px;
@@ -32,7 +31,7 @@ footer {
 
 .icon-link {
     color: #ffffff;
-    font-size: 1.8rem; /* Smaller icons */
+    font-size: 1.8rem; 
     padding: 8px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -47,7 +46,7 @@ footer {
 }
 
 .social-icons a {
-    font-size: 1.6rem; /* Smaller social media icons */
+    font-size: 1.6rem; 
     margin: 0 10px;
     color: #ffffff;
     transition: color 0.3s ease;
@@ -58,17 +57,17 @@ footer {
 }
 
 footer p {
-    font-size: 0.8rem; /* Smaller text */
+    font-size: 0.8rem; 
     opacity: 0.8;
     margin-top: 30px;
     letter-spacing: 0.5px;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
     .contact-icons, .social-icons {
         flex-direction: column;
-        gap: 10px; /* Reduce gaps on mobile */
+        gap: 10px; 
     }
 
     .contact-icons .line {
